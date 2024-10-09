@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $password = hash('sha256', $password);
     $userQuery = 'SELECT * FROM users WHERE username LIKE :username';
     $user = $db->query($userQuery, [':username'=>$username])->findOne();
 

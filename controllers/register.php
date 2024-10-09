@@ -33,11 +33,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors['password'] = 'Password too short. Minimum of 4 characters';
     }
     $password_confirm = $_POST['password_confirm'];
-
+    
     if($password !== $password_confirm){
         $errors['confirm'] = 'Passwords do not match.';
     }
-
+    
+    $password = hash('sha256', $password);
 
 
     // echo 'here again query';  
