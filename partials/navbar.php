@@ -1,7 +1,7 @@
     <nav>
         <div class="navbar">
             <div class="logo">
-                <a href="/kpiephpcore">
+                <a href="/">
                     <img width="140px" src="images/logo.svg" alt="Company Logo">
                 </a>
             </div>
