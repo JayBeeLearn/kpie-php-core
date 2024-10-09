@@ -1,0 +1,126 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  --main-blue: #1b1529;
+  --nav-blue: #171025;
+  --main-gold: #bb8b41;
+  --alert-green: #73b559;
+  /* color: white; */
+  overflow-x: hidden;
+}
+
+.register_background {
+  background-color: var(--main-blue);
+  width: 99vw;
+  /* height: 100vh; */
+}
+
+.register_section {
+  width: 99vw;
+  /* height: 100vh; */
+}
+
+.register_section .nav {
+  /* margin: 3rem 4rem; */
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  padding: 1rem;
+}
+
+.register_section .login,
+.logo {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* padding-top: 2rem; */
+}
+
+.register_section .login a {
+  text-decoration: none;
+  color: var(--main-gold);
+  font-weight: 600;
+}
+
+.register_section .login p {
+  color: white;
+}
+.register_box {
+  width: 80%;
+  /* height: 70%; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.register_section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.register_section .register {
+  width: 40%;
+  /* height: 80%; */
+  background-color: white;
+  border-radius: 15px;
+  margin: 0.5rem 0;
+  padding: 1rem 2rem;
+}
+
+.register label {
+  color: var(--main-blue);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register .red {
+  color: red;
+}
+.register .form-group {
+  margin: 0.5rem 0;
+}
+.register .input {
+  width: 90%;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-size: 1rem;
+  color: var(--main-blue);
+  outline: 0.1px solid rgba(128, 128, 128, 0.3);
+  border: 0.1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 12px;
+}
+
+.register .button {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--main-gold);
+  color: white;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.register .login p {
+  text-align: center;
+  color: var(--main-blue);
+}
+
+.register_section .text-center {
+  padding: 0 4rem;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.gold {
+  color: var(--main-gold);
+}
+
+.text-danger {
+  color: red;
+  font-size: 12px;
+}
