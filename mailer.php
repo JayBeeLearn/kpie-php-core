@@ -19,7 +19,7 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 $mail->Username = 'jaybeelarn@gmail.com';
-$mail->Password = 'JB@13231450';
+$mail->Password = '123456789';
 
 $mail->isHTML(true);
 
